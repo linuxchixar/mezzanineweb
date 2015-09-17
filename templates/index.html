@@ -1,0 +1,97 @@
+{% extends "base.html" %}
+{% load i18n staticfiles mezzanine_tags blog_tags %}
+
+{% block meta_title %}{% trans "Inicio" %}{% endblock %}
+{% block title_wrapper%}
+{% endblock %}
+{% block all_content %}
+{% block left_wrapper%}
+{% endblock %}
+
+{% block main_wrapper%}
+
+{% endblock %}
+
+{% block right_wrapper%}
+{% endblock %}
+<!-- *****************************************************************************************************************
+	 HEADERWRAP
+	 ***************************************************************************************************************** -->
+	<div id="headerwrap">
+	    <div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2 himg">
+					<img style="margin-bottom: 5%" src="{% static "img/logo.png" %}" class="img-responsive">
+				</div>
+			</div><!-- /row -->
+	    </div> <!-- /container -->
+	</div><!-- /headerwrap -->
+
+	<!-- *****************************************************************************************************************
+	 SERVICE LOGOS
+	 ***************************************************************************************************************** -->
+	 <div id="service">
+	 	<div class="container">
+ 			<div class="row centered">
+ 				<div class="col-md-3">
+ 					<i class="fa fa-users"></i>
+ 					<h4>Nuestra comunidad</h4>
+ 					<p>Somos un grupo de mujeres y hombres con diferentes perfiles dentro del ámbito de la tecnología en Argentina. Developers, admins, operators, estudiantes... todos son bienvenidos.</p>
+ 				</div>
+ 				<div class="col-md-3">
+ 					<i class="fa fa-laptop"></i>
+ 					<h4>Nuestro objetivo</h4>
+ 					<p>Nuestro grupo comenzó como un esfuerzo por reunir mujeres que se encuentren trabajando con tecnologías libres, y hoy por hoy, estamos intentando promover que más mujeres de diferentes ámbitos (relacionados con la tecnología) se involucren en este campo.</p>
+ 				</div>
+ 				<div class="col-md-3">
+ 					<i class="fa fa-bullhorn"></i>
+ 					<h4>Nuestro plan</h4>
+ 					<p>Buscamos crear un espacio que haga que más mujeres se animen a dar sus primeros pasos en el software libre, y desde ese punto empiecen a participar de otras comunidades.</p>
+ 				</div>
+                                <div class="col-md-3">
+                                        <i class="fa fa-calendar"></i>
+                                        <h4>Nuestras actividades</h4>
+                                        <p>Estaremos ayudando a la difusión de oportunidades laborales y de capacitación, y además participaremos en la organización de reuniones, talleres y conferencias que tengan como objetivo principal aumentar la inclusión. ¡Fijate las últimas novedades en el <a href="blog">Blog</a>!</p>
+                                </div>				
+	 		</div>
+	 	</div><! --/container -->
+	 </div><! --/service -->
+	 
+	<!-- *****************************************************************************************************************
+	 TESTIMONIALS
+	 ***************************************************************************************************************** -->
+	 <div id="twrap">
+	 	<div class="container centered">
+	 		<div class="row">
+	 			<div class="col-lg-8 col-lg-offset-2" style="color: white;">
+	 			<i class="fa fa-comment-o"></i>
+	 			<h2>"Finalmente, todo se conecta - personas, ideas, objetos. La calidad de las conexiones es la clave para la calidad en sí".</h2>
+	 			<h4>Charles Eames</h4>
+	 			</div>
+	 		</div><! --/row -->
+	 	</div><! --/container -->
+	 </div><! --/twrap -->
+	 
+	<!-- *****************************************************************************************************************
+	 OUR CLIENTS
+	 ***************************************************************************************************************** -->
+	 <div id="cwrap">
+		 <div class="container">
+		 	<div class="row centered">
+			 	<h3>Comunidades amigas</h3>
+			 	<div class="col-lg-3 col-md-3 col-sm-3">
+          <img src="{% static "img/comunidades/argentina_en_python.png" %}" class="img-responsive">
+			 	</div>
+			 	<div class="col-lg-3 col-md-3 col-sm-3">
+          <img src="{% static "img/comunidades/quimica_nomada.png" %}" class="img-responsive">
+			 	</div>
+			 	<div class="col-lg-3 col-md-3 col-sm-3">
+          <img src="{% static "img/comunidades/pyar.svg" %}" class="img-responsive">
+			 	</div>
+			 	<div class="col-lg-3 col-md-3 col-sm-3">
+          <img src="{% static "img/comunidades/sysarmy.png" %}" class="img-responsive">
+			 	</div>
+		 	</div><! --/row -->
+		 </div><! --/container -->
+	 </div><! --/cwrap -->
+{% endblock %}
