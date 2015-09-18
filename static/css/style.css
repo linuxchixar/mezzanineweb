@@ -180,7 +180,7 @@ a:focus {
 }
 
 .mtb {
-	margin-top: 80px;
+	margin-top: 50px;
 	margin-bottom: 80px;
 }
 
@@ -348,7 +348,7 @@ a:focus {
 }
 
 #footerwrap i {
-	font-size: 30px;
+	font-size: 25px;
 	color: #bfc9d3;
 	padding-right: 25px;
 }
@@ -365,7 +365,6 @@ a:focus {
 #blue {
 	background: #00b3fe;
 	margin-top: 60px;
-	margin-bottom: 60px;
 	padding-top: 25px;
 	padding-bottom: 25px;
 }
